@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "Sound1",
+  "name": "som_pulo",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "Sound1.wav",
+  "soundFile": "som_pulo.wav",
   "type": 0,
   "volume": 1.0,
 }

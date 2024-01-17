@@ -2,5 +2,6 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"Jogo","order":1,"path":"objects/Jogo/Jogo.yy",},
+    {"name":"som_mensagem","order":1,"path":"sounds/som_mensagem/som_mensagem.yy",},
   ],
 }

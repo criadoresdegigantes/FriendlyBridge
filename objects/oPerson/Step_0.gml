@@ -47,8 +47,7 @@ if !place_meeting(x, y + 1, oParede) {
 } else {
 
 if cima{
-	audio_play_sound(Sound1,10, false);
-	
+	audio_play_sound(som_pulo,10, false);
 	vveloc = -9;
 	
 	}
@@ -88,7 +87,7 @@ y += vveloc;
 
 #region dialogo
 if keyboard_check_pressed((vk_enter)){
-	
+	audio_play_sound(som_mensagem,10, false);
 	if pagina < ds_grid_height(obj_dialogo.texto_grid) - 1{
 		pagina++;
 

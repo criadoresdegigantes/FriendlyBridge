@@ -4,7 +4,8 @@ if obj_dialogo.inicializar == true{
 	if distance_to_object(obj_par_npcs) <= 10{
 	
 			if keyboard_check(ord("F")){
-			mostrado = 1;
+				audio_play_sound(som_mensagem,10, false);
+				mostrado = 1;
 			}
 		
 	}else{
