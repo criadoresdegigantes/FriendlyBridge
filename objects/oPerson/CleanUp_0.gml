@@ -1,0 +1,1 @@
+ds_grid_destroy(obj_dialogo.texto_grid);
