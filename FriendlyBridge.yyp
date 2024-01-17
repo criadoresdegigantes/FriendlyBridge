@@ -38,6 +38,7 @@
     {"id":{"name":"spr_end","path":"sprites/spr_end/spr_end.yy",},},
     {"id":{"name":"spr_balao","path":"sprites/spr_balao/spr_balao.yy",},},
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
+    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"Jogo","path":"objects/Jogo/Jogo.yy",},},
     {"id":{"name":"Cutscene","path":"scripts/Cutscene/Cutscene.yy",},},
     {"id":{"name":"spr_hdc_npc_esquerda","path":"sprites/spr_hdc_npc_esquerda/spr_hdc_npc_esquerda.yy",},},

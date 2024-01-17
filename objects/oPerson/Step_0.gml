@@ -47,6 +47,7 @@ if !place_meeting(x, y + 1, oParede) {
 } else {
 
 if cima{
+	audio_play_sound(Sound1,10, false);
 	
 	vveloc = -9;
 	
