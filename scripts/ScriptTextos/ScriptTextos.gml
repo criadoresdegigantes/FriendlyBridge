@@ -4,23 +4,16 @@ function scr_textos(){
 	switch obj_dialogo.npc_nome{
 		case "Primeiro Texto":
 	
-			if (obj_end.sala == 1)
-			{
-				ds_grid_add_text("Primeiro Texto", spr_face_hcd, 0, "Personagem 1");
-				ds_grid_add_text("Segundo Texto", spr_face_vermei, 1, "Personagem 2");
-				ds_grid_add_text("Terceiro Texto", spr_face_hcd, 0, "Personagem 1");
-				ds_grid_add_text("Quarto Texto", spr_face_hcd, 0, "Personagem 1");
-			}
-			else if (obj_end.sala == 2)
-			{
-				ds_grid_add_text("Quinto Texto", spr_face_hcd, 0, "Silas 1");
-				ds_grid_add_text("Sexta Texto", spr_face_vermei, 1, "Silas 2");
-				ds_grid_add_text("Sétimo Texto", spr_face_hcd, 0, "Silas 1");
-				ds_grid_add_text("Oitavo Texto", spr_face_hcd, 0, "Silas 1");
-			}
-			else{
-				ds_grid_add_text("ops, parece que aqui não é o lugar certo", spr_face_hcd, 0,"");
-			}
+				ds_grid_add_text("Primeiro Texto", spr_face_hcd, 0, "Personagem 1",1);
+				ds_grid_add_text("Segundo Texto", spr_face_vermei, 1, "Personagem 2",1);
+				ds_grid_add_text("Terceiro Texto", spr_face_hcd, 0, "Personagem 1", 1);
+				ds_grid_add_text("Quarto Texto", spr_face_hcd, 0, "Personagem 1", 1);
+		
+				ds_grid_add_text("Quinto Texto", spr_face_hcd, 0, "Silas 1", 2);
+				ds_grid_add_text("Sexta Texto", spr_face_vermei, 1, "Silas 2",2);
+				ds_grid_add_text("Sétimo Texto", spr_face_hcd, 0, "Silas 1", 2);
+				ds_grid_add_text("Oitavo Texto", spr_face_hcd, 0, "Silas 1", 2);
+			
 		break;
 	
 	}
@@ -42,5 +35,6 @@ function ds_grid_add_text(){
 	_grid[# 1, _y] = argument[1];
 	_grid[# 2, _y] = argument[2];
 	_grid[# 3, _y] = argument[3];
+	_grid[# 4, _y] = argument[4];
 
 }

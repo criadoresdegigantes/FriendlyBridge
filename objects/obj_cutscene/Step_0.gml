@@ -13,4 +13,9 @@ switch _len{
 	break;
 	case 3:
 		script_execute(_current_action[0], _current_action[1], _current_action[2], _current_action[3]);
+	break;
+	
+	case 4:
+			script_execute(_current_action[0], _current_action[1], _current_action[2], _current_action[3], _current_action[4]);
+	break;
 }

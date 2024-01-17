@@ -4,7 +4,7 @@ if obj_dialogo.inicializar == true{
 	if distance_to_object(obj_par_npcs) <= 10{
 	
 			if keyboard_check(ord("F")){
-				audio_play_sound(som_mensagem,10, false);
+				audio_play_sound(som_mensagem, 10, false);
 				mostrado = 1;
 			}
 		
@@ -23,7 +23,7 @@ if obj_dialogo.inicializar == true{
 		var _guia = display_get_gui_height();
 
 		var _xx = 0;
-		var _yy = _guia - 200;
+		var _yy = _guia - 200; 
 		var _c = c_black;
 		var _sprite = obj_dialogo.texto_grid[# Infos.Retrato, pagina];
 		//show_debug_message(obj_dialogo.texto_grid[# Infos.Retrato, pagina])

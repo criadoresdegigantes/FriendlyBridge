@@ -18,6 +18,7 @@ veloc = 2;
 
 pagina = 0;
 mostrado = 0;
-inicializar = false; 
+inicializar = false;
+sala = 1;
 
 #endregion

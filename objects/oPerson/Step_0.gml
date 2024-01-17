@@ -88,7 +88,7 @@ y += vveloc;
 #region dialogo
 if keyboard_check_pressed((vk_enter)){
 	audio_play_sound(som_mensagem,10, false);
-	if pagina < ds_grid_height(obj_dialogo.texto_grid) - 1{
+	if (pagina < ds_grid_height(obj_dialogo.texto_grid) - 1) and ( obj_dialogo.texto_grid[# Infos.Sala, pagina]==1){
 		pagina++;
 
 	}else{
