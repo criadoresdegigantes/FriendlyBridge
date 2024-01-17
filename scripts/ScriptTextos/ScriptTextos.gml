@@ -35,7 +35,7 @@ function ds_grid_add_row(){
 }
 
 function ds_grid_add_text(){
-	var _grid = obj_dialogo.texto_grid;
+	var _grid = texto_grid;
 	var _y = ds_grid_add_row(_grid);
 	
 	_grid[# 0, _y] = argument[0];

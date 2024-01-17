@@ -1,7 +1,0 @@
-{
-  "FolderOrderSettings": [],
-  "ResourceOrderSettings": [
-    {"name":"spr_face_vermei","order":2,"path":"sprites/spr_face_vermei/spr_face_vermei.yy",},
-    {"name":"spr_face_hcd","order":1,"path":"sprites/spr_face_hcd/spr_face_hcd.yy",},
-  ],
-}
