@@ -86,10 +86,9 @@ y += vveloc;
 #endregion
 
 #region dialogo
-/*
 if keyboard_check_pressed((vk_enter)){
 	audio_play_sound(som_mensagem,10, false);
-	if (pagina < ds_grid_height(obj_dialogo.texto_grid) - 1) and ( obj_dialogo.texto_grid[# Infos.Sala, pagina]==1){
+	if (pagina < array_length(obj_npc_hdc.mensagens)){
 		pagina++;
 
 	}else{
@@ -99,11 +98,12 @@ if keyboard_check_pressed((vk_enter)){
 	}
 
 }
-*/
 #endregion 
 
-#region Dialogo Array
 
+
+#region Dialogo Array
+/*
 if keyboard_check(ord("F")){
 	audio_play_sound(som_mensagem, 10, false);
 	mostrados = 1
@@ -114,7 +114,7 @@ if mostrados == 1{
 		case 1:
 		show_debug_message(obj_npc_hdc.mensagens[obj_npc_hdc.mensagem])		
 		if keyboard_check_pressed((vk_enter)) and cont < array_length(obj_npc_hdc.mensagens) -1 {
-			obj_npc_hdc.mensagem ++;
+			pagina ++;
 			show_debug_message(obj_npc_hdc.mensagens[obj_npc_hdc.mensagem])
 			cont +=1 ;
 		}else if (cont >= array_length(obj_npc_hdc.mensagens)-1){
@@ -123,5 +123,5 @@ if mostrados == 1{
 	break;
 	}
 }
-
+*/
 #endregion
