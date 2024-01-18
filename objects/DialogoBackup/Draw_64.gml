@@ -51,6 +51,16 @@ if obj_dialogo.inicializar == true{
 #endregion
 
 
+#region Dialogo Array
 
+draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+draw_text_ext(_xx + 232, _yy + 32, obj_dialogo.texto_grid[# Infos.Texto, pagina], 32, _guil - 264);
+draw_sprite_ext(_sprite, 0, 250, 380, -12, 12, 0, c_white, 1);
+
+draw_rectangle_color(_xx, _yy, _guil - 200, _guia, _c, _c, _c, _c, false);
+draw_text_ext(_xx + 32, _yy + 32, obj_dialogo.texto_grid[# Infos.Texto, pagina], 32, _guil - 264);
+draw_sprite_ext(_sprite, 0, _guil - 280, _guia, 12, 12, 0, c_white, 1);
+
+#endregion
 
 

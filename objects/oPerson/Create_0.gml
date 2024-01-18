@@ -13,10 +13,12 @@ direct = 0;
 hveloc = 0;
 vveloc = 0;
 veloc = 2;
+cont = 0;
 
 // DIÁLOGO
 
 pagina = 0;
+mostrados = 0;
 mostrado = 0;
 inicializar = false;
 sala = 1;
