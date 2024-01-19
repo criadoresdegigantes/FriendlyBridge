@@ -1,7 +1,8 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+
+#region dialogo
 /*
-#region dialogo 
 if obj_dialogo.inicializar == true{
 	//PROCURANDO
 	if distance_to_object(obj_par_npcs) <= 10{
@@ -49,26 +50,23 @@ if obj_dialogo.inicializar == true{
 		
 	}
 }
-#endregion
 */
+#endregion
+
 #region Dialogo Array
 
 if distance_to_object(obj_par_npcs) <= 10{
-	
-		if keyboard_check(ord("F")){
-			audio_play_sound(som_mensagem, 10, false);
-			mostrado = 1;
-		}
-		
-	}else{
-	
-		mostrado = 0; 
+	if keyboard_check(ord("F")){
+		audio_play_sound(som_mensagem, 10, false);
+		conversando = true
 	}
+		
+}
 
-if mostrado == 1 {
+if conversando == true {
 	
 	var _npc = instance_nearest(x, y, obj_par_npcs);
-	var _mensagem = _npc.mensagens
+
 	
 	
 	var _guil = display_get_gui_width();
@@ -80,24 +78,31 @@ if mostrado == 1 {
 	
 	show_debug_message(sala);
 
-	if pagina <= array_length(obj_npc_hdc.mensagens) - 1 {
-		switch sala {
-			case 1:
-				draw_rectangle_color(_xx + 100, _yy, _guil, _guia, _c, _c, _c, _c, false);
-				draw_text(_xx + 16, _yy - 32, _npc.nome);
-				draw_text_ext(_xx + 232, _yy + 32, obj_npc_hdc.mensagens[pagina], 32, _guil - 264);
-				draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);		
-			break;
-			case 2:
-				draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
-				draw_text(_xx + 16, _yy - 32, _npc.nome);
-				draw_text_ext(_xx + 232, _yy + 32, obj_npc_hdc.mensagens2[pagina], 32, _guil - 264);
-				draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);	
-			break;
-		}
-	
-	}
+	switch sala {
+		case 1:
+			if pagina <= array_length(_npc.mensagens) - 1 {
+						draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+						draw_text(_xx + 16, _yy - 32, _npc.nome);
+						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens[pagina], 32, _guil - 264);
+						draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);		
+			} else {
+				conversando = false
+				pagina = 0
+			}	
+		break;
 		
+		case 2:
+			if pagina <= array_length(_npc.mensagens2) - 1 {
+					draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+					draw_text(_xx + 16, _yy - 32, _npc.nome);
+					draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens2[pagina], 32, _guil - 264);
+					draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);	
+			} else {
+				conversando = false
+				pagina = 0
+			}
+		break;
+	}
 }
 
 

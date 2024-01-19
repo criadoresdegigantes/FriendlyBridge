@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oParede",
-  "eventList": [],
+  "name": "obj_npc_flauta",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -10,8 +13,8 @@
     "path": "folders/Objetos.yy",
   },
   "parentObjectId": {
-    "name": "obj_colisao",
-    "path": "objects/obj_colisao/obj_colisao.yy",
+    "name": "obj_par_npcs",
+    "path": "objects/obj_par_npcs/obj_par_npcs.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -29,9 +32,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_parede",
-    "path": "sprites/spr_parede/spr_parede.yy",
+    "name": "spr_flauta_npc",
+    "path": "sprites/spr_flauta_npc/spr_flauta_npc.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

@@ -40,7 +40,7 @@ if reset {
 	
 }
 
-if !place_meeting(x, y + 1, oParede) {
+if !place_meeting(x, y + 1, obj_colisao) {
 	
 	vveloc += gravidade;
 	
@@ -54,9 +54,9 @@ if cima{
 }
 
 // COLISÂO
-if place_meeting(x + hveloc, y, oParede){
+if place_meeting(x + hveloc, y, obj_colisao){
 
-	while !place_meeting(x + sign(hveloc), y, oParede) {
+	while !place_meeting(x + sign(hveloc), y, obj_colisao) {
 		
 		x += sign(hveloc);
 	
@@ -69,9 +69,9 @@ if place_meeting(x + hveloc, y, oParede){
  x += hveloc;
  
  
- if place_meeting(x , y + vveloc, oParede){
+ if place_meeting(x , y + vveloc, obj_colisao){
 
-	while !place_meeting(x, y + sign(vveloc), oParede) {
+	while !place_meeting(x, y + sign(vveloc), obj_colisao) {
 		
 		y += sign(vveloc);
 	
@@ -86,18 +86,32 @@ y += vveloc;
 #endregion
 
 #region dialogo
-if keyboard_check_pressed((vk_enter)){
+if (conversando == true and keyboard_check_pressed((vk_enter))) {
 	audio_play_sound(som_mensagem,10, false);
-	if (pagina < array_length(obj_npc_hdc.mensagens)){
-		pagina++;
+	switch sala {
+		case 1:
+			if (pagina <= array_length(obj_npc_hdc.mensagens)){
+				pagina++;
 
-	}else{
-		mostrado = 0;
-		pagina = 0;
+			}else{
+				//conversando = false;
+				//pagina = 0;
 	
-	}
+			}
+		break;
+		case 2:
+			if (pagina <= array_length(obj_npc_hdc.mensagens2)){
+				pagina++;
 
+			}else{
+				//conversando = false;
+				//pagina = 0;
+	
+			}
+		break;
+	}
 }
+
 #endregion 
 
 
