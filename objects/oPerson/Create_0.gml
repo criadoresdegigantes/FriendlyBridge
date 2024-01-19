@@ -21,6 +21,7 @@ pagina = 0;
 mostrados = 0;
 mostrado = 0;
 inicializar = false;
-sala = 1;
+sala = room;
+
 
 #endregion
