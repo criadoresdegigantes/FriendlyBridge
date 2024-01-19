@@ -125,3 +125,11 @@ if mostrados == 1{
 }
 */
 #endregion
+
+if y - 250 > room_height {
+	room_restart()	
+
+}
+
+window_set_size(1280, 720)
+//window_set_fullscreen(true)

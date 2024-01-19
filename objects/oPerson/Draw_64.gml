@@ -82,13 +82,13 @@ if mostrado == 1 {
 
 	if pagina <= array_length(obj_npc_hdc.mensagens) - 1 {
 		switch sala {
-			case 0:
-				draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+			case 1:
+				draw_rectangle_color(_xx + 100, _yy, _guil, _guia, _c, _c, _c, _c, false);
 				draw_text(_xx + 16, _yy - 32, _npc.nome);
 				draw_text_ext(_xx + 232, _yy + 32, obj_npc_hdc.mensagens[pagina], 32, _guil - 264);
 				draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);		
 			break;
-			case 1:
+			case 2:
 				draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
 				draw_text(_xx + 16, _yy - 32, _npc.nome);
 				draw_text_ext(_xx + 232, _yy + 32, obj_npc_hdc.mensagens2[pagina], 32, _guil - 264);

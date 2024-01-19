@@ -43,6 +43,7 @@
     {"id":{"name":"Jogo","path":"objects/Jogo/Jogo.yy",},},
     {"id":{"name":"Cutscene","path":"scripts/Cutscene/Cutscene.yy",},},
     {"id":{"name":"spr_hdc_npc_esquerda","path":"sprites/spr_hdc_npc_esquerda/spr_hdc_npc_esquerda.yy",},},
+    {"id":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"id":{"name":"ScriptTextos","path":"scripts/ScriptTextos/ScriptTextos.yy",},},
     {"id":{"name":"obj_end","path":"objects/obj_end/obj_end.yy",},},
     {"id":{"name":"spr_caverna1","path":"sprites/spr_caverna1/spr_caverna1.yy",},},
@@ -73,6 +74,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room0","path":"rooms/Room0/Room0.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],

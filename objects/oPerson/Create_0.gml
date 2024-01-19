@@ -5,7 +5,7 @@ reset = 0;
 direita = 0;
 esquerda = 0;
 cima = 0;
-gravidade = 0.7;
+gravidade = 0.6;
 direct = 0;
 
 //VELOC MOVE

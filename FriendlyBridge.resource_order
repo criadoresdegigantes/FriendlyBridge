@@ -3,6 +3,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_mao","order":2,"path":"sprites/spr_mao/spr_mao.yy",},
     {"name":"Jogo","order":1,"path":"objects/Jogo/Jogo.yy",},
+    {"name":"Room0","order":1,"path":"rooms/Room0/Room0.yy",},
     {"name":"spr_letraF","order":3,"path":"sprites/spr_letraF/spr_letraF.yy",},
     {"name":"som_mensagem","order":1,"path":"sounds/som_mensagem/som_mensagem.yy",},
     {"name":"spr_letraE","order":1,"path":"sprites/spr_letraE/spr_letraE.yy",},
