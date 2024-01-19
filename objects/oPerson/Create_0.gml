@@ -7,6 +7,7 @@ esquerda = 0;
 cima = 0;
 gravidade = 0.6;
 direct = 0;
+can_move = true
 
 //VELOC MOVE
 

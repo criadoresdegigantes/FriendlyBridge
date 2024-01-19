@@ -10,28 +10,29 @@ cima = keyboard_check_pressed(vk_space);
 
 hveloc = (direita-esquerda) * veloc;
 
-if direita {
+if can_move = true {
+	if direita {
 	
-	direct = 0;
-	sprite_index = spr_personagem_correndo_direita;
+		direct = 0;
+		sprite_index = spr_personagem_correndo_direita;
 	
-} else if esquerda {
+	} else if esquerda {
 	
-	direct = 1;
-	sprite_index = spr_personagem_correndo_esquerda; 
+		direct = 1;
+		sprite_index = spr_personagem_correndo_esquerda; 
 	
-} else {
+	} else {
 	
-	if direct = 0 {
+		if direct = 0 {
 		
-		sprite_index = spr_personagem_parado_direita;
+			sprite_index = spr_personagem_parado_direita;
 		
-	}else if direct = 1 {
+		}else if direct = 1 {
 		
-		sprite_index = spr_personagem_parado_esquerda;
+			sprite_index = spr_personagem_parado_esquerda;
 		
+		}
 	}
-	
 }
 
 if reset {

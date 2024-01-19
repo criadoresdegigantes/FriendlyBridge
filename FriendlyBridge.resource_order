@@ -9,6 +9,7 @@
     {"name":"spr_letraF","order":3,"path":"sprites/spr_letraF/spr_letraF.yy",},
     {"name":"som_mensagem","order":1,"path":"sounds/som_mensagem/som_mensagem.yy",},
     {"name":"spr_plataforma","order":4,"path":"sprites/spr_plataforma/spr_plataforma.yy",},
+    {"name":"spr_personagem_costas","order":6,"path":"sprites/spr_personagem_costas/spr_personagem_costas.yy",},
     {"name":"obj_npc_flauta","order":7,"path":"objects/obj_npc_flauta/obj_npc_flauta.yy",},
     {"name":"spr_letraE","order":1,"path":"sprites/spr_letraE/spr_letraE.yy",},
     {"name":"DialogoBackup","order":4,"path":"objects/DialogoBackup/DialogoBackup.yy",},

@@ -56,6 +56,7 @@
     {"id":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"spr_plataforma","path":"sprites/spr_plataforma/spr_plataforma.yy",},},
+    {"id":{"name":"spr_personagem_costas","path":"sprites/spr_personagem_costas/spr_personagem_costas.yy",},},
     {"id":{"name":"spr_personagem_parado_direita","path":"sprites/spr_personagem_parado_direita/spr_personagem_parado_direita.yy",},},
     {"id":{"name":"obj_npc_flauta","path":"objects/obj_npc_flauta/obj_npc_flauta.yy",},},
     {"id":{"name":"spr_cenario_caverna","path":"sprites/spr_cenario_caverna/spr_cenario_caverna.yy",},},
