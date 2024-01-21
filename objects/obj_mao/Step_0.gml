@@ -4,8 +4,7 @@
 if (player_perto == true) {
 	with(oPerson) {
 		if (keyboard_check(ord("E")) and obj_mao.apertado == false) {
-			obj_mao.apertado = true
-			can_move = false
+			instance_nearest(x,y, obj_mao).apertado = true
 			sprite_index = spr_personagem_costas
 		
 		}

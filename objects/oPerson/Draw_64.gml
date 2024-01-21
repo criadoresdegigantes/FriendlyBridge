@@ -64,7 +64,7 @@ if distance_to_object(obj_par_npcs) <= 10{
 }
 
 if conversando == true {
-	
+	can_move = false
 	var _npc = instance_nearest(x, y, obj_par_npcs);
 
 	
@@ -79,12 +79,23 @@ if conversando == true {
 	show_debug_message(sala);
 
 	switch sala {
+		case 0:
+			if pagina <= array_length(_npc.mensagens0) - 1 {
+						draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+						draw_text(_xx + 16, _yy - 32, _npc.nome);
+						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens0[pagina], 32, _guil - 264);
+						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);		
+			} else {
+				conversando = false
+				pagina = 0
+			}	
+		break;
 		case 1:
 			if pagina <= array_length(_npc.mensagens) - 1 {
 						draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
 						draw_text(_xx + 16, _yy - 32, _npc.nome);
 						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens[pagina], 32, _guil - 264);
-						draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);		
+						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);		
 			} else {
 				conversando = false
 				pagina = 0
@@ -103,6 +114,11 @@ if conversando == true {
 			}
 		break;
 	}
+} else {
+	conversando = false
+	pagina = 0
+	can_move = true
+	
 }
 
 

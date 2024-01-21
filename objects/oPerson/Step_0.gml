@@ -41,6 +41,8 @@ if reset {
 	
 }
 
+if can_move == true {
+	
 if !place_meeting(x, y + 1, obj_colisao) {
 	
 	vveloc += gravidade;
@@ -83,7 +85,8 @@ if place_meeting(x + hveloc, y, obj_colisao){
 }
  
 y += vveloc;
-	
+
+}
 #endregion
 
 #region dialogo

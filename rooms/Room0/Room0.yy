@@ -14,6 +14,7 @@
     {"name":"inst_4ED6122F_1","path":"rooms/Room0/Room0.yy",},
     {"name":"inst_5E69C03E_1","path":"rooms/Room0/Room0.yy",},
     {"name":"inst_53D0B090_1","path":"rooms/Room0/Room0.yy",},
+    {"name":"inst_25CA7932","path":"rooms/Room0/Room0.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -33,6 +34,7 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":400,"effectEnabled":true,"effectType":null,"gridX":1,"gridY":1,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8776CD0_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oParede","path":"objects/oParede/oParede.yy",},"properties":[],"rotation":0.0,"scaleX":12.515625,"scaleY":1.0,"x":200.19011,"y":184.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4781E16E_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPerson","path":"objects/oPerson/oPerson.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":17.0,"y":168.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_25CA7932","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_npc_robo","path":"objects/obj_npc_robo/obj_npc_robo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":211.0,"y":146.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_cenario_pre_historia2","path":"sprites/spr_cenario_pre_historia2/spr_cenario_pre_historia2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

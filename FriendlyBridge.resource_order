@@ -14,7 +14,11 @@
     {"name":"spr_personagem_costas","order":6,"path":"sprites/spr_personagem_costas/spr_personagem_costas.yy",},
     {"name":"obj_npc_flauta","order":7,"path":"objects/obj_npc_flauta/obj_npc_flauta.yy",},
     {"name":"spr_letraE","order":1,"path":"sprites/spr_letraE/spr_letraE.yy",},
+    {"name":"spr_npc_hdc_idle","order":8,"path":"sprites/spr_npc_hdc_idle/spr_npc_hdc_idle.yy",},
+    {"name":"spr_npc_robo_idle","order":9,"path":"sprites/spr_npc_robo_idle/spr_npc_robo_idle.yy",},
+    {"name":"obj_npc_robo","order":9,"path":"objects/obj_npc_robo/obj_npc_robo.yy",},
     {"name":"DialogoBackup","order":4,"path":"objects/DialogoBackup/DialogoBackup.yy",},
+    {"name":"spr_face_robo","order":10,"path":"sprites/spr_face_robo/spr_face_robo.yy",},
     {"name":"obj_mao","order":3,"path":"objects/obj_mao/obj_mao.yy",},
   ],
 }

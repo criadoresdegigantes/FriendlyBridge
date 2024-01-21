@@ -1,8 +1,11 @@
 /// @description Inserir descrição aqui
 // Você pode escrever seu código neste editor
+draw_set_font(fnt_texto)
 
-nome = "flautista"
-mensagens2 =["sou o flautista", "adeus"]
+face = spr_face_hcd
+
+nome = "Flautista"
+mensagens2 =["Sou o flautista.", "Adeus."]
 
 
 

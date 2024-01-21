@@ -33,14 +33,14 @@
     {"name":"inst_21E76644","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_71E62C69","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_7F1EEDD8","path":"rooms/Room2/Room2.yy",},
-    {"name":"inst_4796B7DB","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_7F3E2CF6","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_2","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26C8441A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mao","path":"objects/obj_mao/obj_mao.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":507.0,"y":43.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2A96CB6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oParede","path":"objects/oParede/oParede.yy",},"properties":[],"rotation":0.0,"scaleX":36.875,"scaleY":1.0,"x":590.4798,"y":-16.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4796B7DB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mao2","path":"objects/obj_mao2/obj_mao2.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1102.0,"y":75.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7F3E2CF6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_mao","path":"objects/obj_mao/obj_mao.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1101.0,"y":75.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Dialogo","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7FD43399","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_dialogo","path":"objects/obj_dialogo/obj_dialogo.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":96.0,},
