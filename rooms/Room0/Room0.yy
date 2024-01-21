@@ -34,7 +34,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_8776CD0_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oParede","path":"objects/oParede/oParede.yy",},"properties":[],"rotation":0.0,"scaleX":12.515625,"scaleY":1.0,"x":200.19011,"y":184.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4781E16E_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oPerson","path":"objects/oPerson/oPerson.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":17.0,"y":168.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":0.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_cenario_pre_historia","path":"sprites/spr_cenario_pre_historia/spr_cenario_pre_historia.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"spr_cenario_pre_historia2","path":"sprites/spr_cenario_pre_historia2/spr_cenario_pre_historia2.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Cenas",
@@ -56,7 +56,7 @@
   },
   "sequenceId": null,
   "views": [
-    {"hborder":32,"hport":600,"hspeed":-1,"hview":200,"inherit":false,"objectId":{"name":"oPerson","path":"objects/oPerson/oPerson.yy",},"vborder":32,"visible":true,"vspeed":-1,"wport":1000,"wview":300,"xport":0,"xview":0,"yport":0,"yview":0,},
+    {"hborder":200,"hport":600,"hspeed":-1,"hview":200,"inherit":false,"objectId":{"name":"oPerson","path":"objects/oPerson/oPerson.yy",},"vborder":32,"visible":true,"vspeed":-1,"wport":1000,"wview":300,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
     {"hborder":32,"hport":768,"hspeed":-1,"hview":768,"inherit":false,"objectId":null,"vborder":32,"visible":false,"vspeed":-1,"wport":1366,"wview":1366,"xport":0,"xview":0,"yport":0,"yview":0,},
