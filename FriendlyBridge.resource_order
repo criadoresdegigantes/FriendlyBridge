@@ -6,6 +6,7 @@
     {"name":"obj_plataforma","order":5,"path":"objects/obj_plataforma/obj_plataforma.yy",},
     {"name":"spr_cenario_pre_historia","order":5,"path":"sprites/spr_cenario_pre_historia/spr_cenario_pre_historia.yy",},
     {"name":"obj_mao2","order":8,"path":"objects/obj_mao2/obj_mao2.yy",},
+    {"name":"spr_enter","order":11,"path":"sprites/spr_enter/spr_enter.yy",},
     {"name":"Room0","order":1,"path":"rooms/Room0/Room0.yy",},
     {"name":"obj_colisao","order":6,"path":"objects/obj_colisao/obj_colisao.yy",},
     {"name":"spr_letraF","order":3,"path":"sprites/spr_letraF/spr_letraF.yy",},
