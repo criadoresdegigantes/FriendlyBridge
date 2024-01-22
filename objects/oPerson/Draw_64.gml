@@ -67,7 +67,7 @@ if conversando == true {
 	can_move = false
 	var _npc = instance_nearest(x, y, obj_par_npcs);
 
-	
+	window_set_fullscreen(true)
 	
 	var _guil = display_get_gui_width();
 	var _guia = display_get_gui_height();
@@ -84,7 +84,8 @@ if conversando == true {
 						draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
 						draw_text(_xx + 16, _yy - 32, _npc.nome);
 						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens0[pagina], 32, _guil - 264);
-						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);	
+						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
+						draw_sprite_ext(spr_teclaEnter, 0, 1200, 600, 1, 1, 0, c_white, 1);
 
 					
 					} else {

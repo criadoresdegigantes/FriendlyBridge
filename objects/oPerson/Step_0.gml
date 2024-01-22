@@ -3,8 +3,8 @@
 /// @description 
 //--> MOVE
 reset = keyboard_check(ord("T"));
-direita = keyboard_check(ord("D"));
-esquerda = keyboard_check(ord("A"));
+direita = keyboard_check(ord("D")) or keyboard_check(vk_right);
+esquerda = keyboard_check(ord("A")) or keyboard_check(vk_left);
 cima = keyboard_check_pressed(vk_space);
 
 
@@ -90,11 +90,24 @@ y += vveloc;
 #endregion
 
 #region dialogo
+
+var _npc = instance_nearest(x, y, obj_par_npcs)
+
 if (conversando == true and keyboard_check_pressed((vk_enter))) {
 	audio_play_sound(som_mensagem,10, false);
 	switch sala {
+		case 0:
+			if (pagina <= array_length(_npc.mensagens0)){
+				pagina++;
+
+			}else{
+				//conversando = false;
+				//pagina = 0;
+	
+			}
+		break;
 		case 1:
-			if (pagina <= array_length(obj_npc_hdc.mensagens)){
+			if (pagina <= array_length(_npc.mensagens)){
 				pagina++;
 
 			}else{
@@ -104,7 +117,7 @@ if (conversando == true and keyboard_check_pressed((vk_enter))) {
 			}
 		break;
 		case 2:
-			if (pagina <= array_length(obj_npc_hdc.mensagens2)){
+			if (pagina <= array_length(_npc.mensagens2)){
 				pagina++;
 
 			}else{
