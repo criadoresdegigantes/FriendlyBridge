@@ -10,7 +10,6 @@
     {"name":"obj_plataforma","order":5,"path":"objects/obj_plataforma/obj_plataforma.yy",},
     {"name":"spr_cenario_pre_historia","order":20,"path":"sprites/spr_cenario_pre_historia/spr_cenario_pre_historia.yy",},
     {"name":"spr_hdc_npc_esquerda","order":12,"path":"sprites/spr_hdc_npc_esquerda/spr_hdc_npc_esquerda.yy",},
-    {"name":"spr_enter","order":26,"path":"sprites/spr_enter/spr_enter.yy",},
     {"name":"Room0","order":1,"path":"rooms/Room0/Room0.yy",},
     {"name":"obj_colisao","order":6,"path":"objects/obj_colisao/obj_colisao.yy",},
     {"name":"spr_caverna1","order":11,"path":"sprites/spr_caverna1/spr_caverna1.yy",},

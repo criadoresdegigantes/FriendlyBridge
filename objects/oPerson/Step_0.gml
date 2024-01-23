@@ -1,6 +1,5 @@
 #region move e colisão
 
-/// @description 
 //--> MOVE
 reset = keyboard_check(ord("T"));
 direita = keyboard_check(ord("D")) or keyboard_check(vk_right);
@@ -27,13 +26,13 @@ if can_move = true {
 		
 			sprite_index = spr_personagem_parado_direita;
 		
-		}else if direct = 1 {
+		} else if direct = 1 {
 		
 			sprite_index = spr_personagem_parado_esquerda;
-		
-		}
+		} 
 	}
 }
+
 
 if reset {
 	

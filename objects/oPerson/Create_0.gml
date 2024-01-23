@@ -23,5 +23,4 @@ mostrado = 0;
 inicializar = false;
 sala = room;
 
-
 #endregion

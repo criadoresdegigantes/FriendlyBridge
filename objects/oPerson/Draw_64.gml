@@ -53,6 +53,9 @@ if obj_dialogo.inicializar == true{
 */
 #endregion
 
+draw_text_ext_transformed(10, 30, room_speed, 3, 100, 1, 1, 0)
+
+
 #region Dialogo Array
 
 if distance_to_object(obj_par_npcs) <= 10{
@@ -85,7 +88,7 @@ if conversando == true {
 						draw_text(_xx + 16, _yy - 32, _npc.nome);
 						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens0[pagina], 32, _guil - 264);
 						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
-						draw_sprite_ext(spr_teclaEnter, 0, 1200, 600, 1, 1, 0, c_white, 1);
+						draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
 
 					
 					} else {
@@ -98,7 +101,9 @@ if conversando == true {
 						draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
 						draw_text(_xx + 16, _yy - 32, _npc.nome);
 						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens[pagina], 32, _guil - 264);
-						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);		
+						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
+						draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
+
 			} else {
 				conversando = false
 				pagina = 0
@@ -111,6 +116,8 @@ if conversando == true {
 					draw_text(_xx + 16, _yy - 32, _npc.nome);
 					draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens2[pagina], 32, _guil - 264);
 					draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);	
+					draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
+					
 			} else {
 				conversando = false
 				pagina = 0
