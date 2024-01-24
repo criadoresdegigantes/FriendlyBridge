@@ -104,16 +104,6 @@ var _npc = instance_nearest(x, y, obj_par_npcs)
 if (conversando == true and keyboard_check_pressed((vk_enter))) {
 	audio_play_sound(som_mensagem,10, false);
 	switch sala {
-		case 0:
-			if (pagina <= array_length(_npc.mensagens0)){
-				pagina++;
-
-			}else{
-				//conversando = false;
-				//pagina = 0;
-	
-			}
-		break;
 		case 1:
 			if (pagina <= array_length(_npc.mensagens)){
 				pagina++;
@@ -126,6 +116,16 @@ if (conversando == true and keyboard_check_pressed((vk_enter))) {
 		break;
 		case 2:
 			if (pagina <= array_length(_npc.mensagens2)){
+				pagina++;
+
+			}else{
+				//conversando = false;
+				//pagina = 0;
+	
+			}
+		break;
+		case 3:
+			if (pagina <= array_length(_npc.mensagens3)){
 				pagina++;
 
 			}else{

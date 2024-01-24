@@ -82,11 +82,11 @@ if conversando == true {
 	show_debug_message(sala);
 
 	switch sala {
-		case 0:
-			if pagina <= array_length(_npc.mensagens0) - 1 {
+		case 1:
+			if pagina <= array_length(_npc.mensagens) - 1 {
 						draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
 						draw_text(_xx + 16, _yy - 32, _npc.nome);
-						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens0[pagina], 32, _guil - 264);
+						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens[pagina], 32, _guil - 264);
 						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
 						draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
 
@@ -96,11 +96,11 @@ if conversando == true {
 				pagina = 0
 			}	
 		break;
-		case 1:
-			if pagina <= array_length(_npc.mensagens) - 1 {
+		case 2:
+			if pagina <= array_length(_npc.mensagens2) - 1 {
 						draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
 						draw_text(_xx + 16, _yy - 32, _npc.nome);
-						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens[pagina], 32, _guil - 264);
+						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens2[pagina], 32, _guil - 264);
 						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
 						draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
 
@@ -110,11 +110,11 @@ if conversando == true {
 			}	
 		break;
 		
-		case 2:
-			if pagina <= array_length(_npc.mensagens2) - 1 {
+		case 3:
+			if pagina <= array_length(_npc.mensagens3) - 1 {
 					draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
 					draw_text(_xx + 16, _yy - 32, _npc.nome);
-					draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens2[pagina], 32, _guil - 264);
+					draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens3[pagina], 32, _guil - 264);
 					draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);	
 					draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
 					
@@ -124,11 +124,11 @@ if conversando == true {
 			}
 		break;
 		
-		case 3:
-			if pagina <= array_length(_npc.mensagens3) - 1 {
+		case 4:
+			if pagina <= array_length(_npc.mensagens4) - 1 {
 					draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
 					draw_text(_xx + 16, _yy - 32, _npc.nome);
-					draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens3[pagina], 32, _guil - 264);
+					draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens4[pagina], 32, _guil - 264);
 					draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);	
 					draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
 					

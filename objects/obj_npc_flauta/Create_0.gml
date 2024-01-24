@@ -5,7 +5,7 @@ draw_set_font(fnt_texto)
 face = spr_face_hcd
 
 nome = "Flautista"
-mensagens2 =["Sou o flautista.", "Adeus."]
+mensagens3 =["Sou o flautista.", "Adeus."]
 
 
 
