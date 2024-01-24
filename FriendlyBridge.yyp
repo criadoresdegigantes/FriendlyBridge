@@ -27,13 +27,16 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sons","folderPath":"folders/Sons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"A_arte_e_a_arte.m4a","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.1.129",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"spr_pergaminho","path":"sprites/spr_pergaminho/spr_pergaminho.yy",},},
     {"id":{"name":"spr_cenario_pre_historia2","path":"sprites/spr_cenario_pre_historia2/spr_cenario_pre_historia2.yy",},},
     {"id":{"name":"obj_harpinha","path":"objects/obj_harpinha/obj_harpinha.yy",},},
     {"id":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},},

@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"spr_pergaminho","order":33,"path":"sprites/spr_pergaminho/spr_pergaminho.yy",},
     {"name":"spr_cenario_pre_historia2","order":22,"path":"sprites/spr_cenario_pre_historia2/spr_cenario_pre_historia2.yy",},
     {"name":"obj_harpinha","order":12,"path":"objects/obj_harpinha/obj_harpinha.yy",},
     {"name":"spr_end","order":14,"path":"sprites/spr_end/spr_end.yy",},

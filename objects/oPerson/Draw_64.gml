@@ -72,37 +72,42 @@ if conversando == true {
 
 	window_set_fullscreen(true)
 	
-	var _guil = display_get_gui_width();
-	var _guia = display_get_gui_height();
+	var _guil = display_get_gui_width(); //pega a largura da tela do visor que nesse caso é 1000
+	var _guia = display_get_gui_height(); //pega a altura da tela do visor que nesse caso é 600
 
-	var _xx = 0;
-	var _yy = _guia - 200; 
-	var _c = c_black;
+	var _xx = 0; //posição em relacao aoa x 
+	var _yy = _guia/6  ;  //posição em relacao aoa y 
+ 	var _c = c_black;
+	
+	var largura_texto = sprite_get_width(spr_pergaminho) - 80
 	
 	show_debug_message(sala);
 
 	switch sala {
 		case 1:
 			if pagina <= array_length(_npc.mensagens) - 1 {
-						draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
-						draw_text(_xx + 16, _yy - 32, _npc.nome);
-						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens[pagina], 32, _guil - 264);
-						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
-						draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
-
-					
-					} else {
+				
+				//draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+				draw_sprite_ext(spr_pergaminho, 0, _xx + 100, _yy, 1, 1, 0, c_white, 1);
+				//draw_text(_xx + , _yy + 32, _npc.nome);
+				draw_text_ext_color(_xx + 100 + largura_texto/2 + 60, _yy + 150, _npc.mensagens[pagina], 32, largura_texto, _c, _c, _c, _c, 1);
+				//draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
+				draw_sprite_ext(spr_teclaEnter, 0, _xx + 100 + sprite_get_width(spr_pergaminho) - 70,  _yy+  + sprite_get_height(spr_pergaminho) - 80 , 1, 1, 0, c_white, 1);
+				
+			} else {
 				conversando = false
 				pagina = 0
 			}	
 		break;
 		case 2:
 			if pagina <= array_length(_npc.mensagens2) - 1 {
-						draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
-						draw_text(_xx + 16, _yy - 32, _npc.nome);
-						draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens2[pagina], 32, _guil - 264);
-						draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
-						draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
+				
+				//draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+				draw_sprite_ext(spr_pergaminho, 0, _xx + 100, _yy, 1, 1, 0, c_white, 1);
+				//draw_text(_xx + , _yy + 32, _npc.nome);
+				draw_text_ext_color(_xx + 100 + largura_texto/2 + 60, _yy + 150, _npc.mensagens2[pagina], 32, largura_texto, _c, _c, _c, _c, 1);
+				//draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
+				draw_sprite_ext(spr_teclaEnter, 0, _xx + 100 + sprite_get_width(spr_pergaminho) - 70,  _yy+  + sprite_get_height(spr_pergaminho) - 80 , 1, 1, 0, c_white, 1);
 
 			} else {
 				conversando = false
@@ -112,11 +117,13 @@ if conversando == true {
 		
 		case 3:
 			if pagina <= array_length(_npc.mensagens3) - 1 {
-					draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
-					draw_text(_xx + 16, _yy - 32, _npc.nome);
-					draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens3[pagina], 32, _guil - 264);
-					draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);	
-					draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
+				
+				//draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+				draw_sprite_ext(spr_pergaminho, 0, _xx + 100, _yy, 1, 1, 0, c_white, 1);
+				//draw_text(_xx + , _yy + 32, _npc.nome);
+				draw_text_ext_color(_xx + 100 + largura_texto/2 + 60, _yy + 150, _npc.mensagens3[pagina], 32, largura_texto, _c, _c, _c, _c, 1);
+				//draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
+				draw_sprite_ext(spr_teclaEnter, 0, _xx + 100 + sprite_get_width(spr_pergaminho) - 70,  _yy+  + sprite_get_height(spr_pergaminho) - 80 , 1, 1, 0, c_white, 1);
 					
 			} else {
 				conversando = false
@@ -126,11 +133,13 @@ if conversando == true {
 		
 		case 4:
 			if pagina <= array_length(_npc.mensagens4) - 1 {
-					draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
-					draw_text(_xx + 16, _yy - 32, _npc.nome);
-					draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens4[pagina], 32, _guil - 264);
-					draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);	
-					draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
+				
+					//draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+						draw_sprite_ext(spr_pergaminho, 0, _xx + 100, _yy, 1, 1, 0, c_white, 1);
+						//draw_text(_xx + , _yy + 32, _npc.nome);
+						draw_text_ext_color(_xx + 100 + largura_texto/2 + 60, _yy + 150, _npc.mensagens4[pagina], 32, largura_texto, _c, _c, _c, _c, 1);
+						//draw_sprite_ext(_npc.face, 0, 250, 380, -12, 12, 0, c_white, 1);
+						draw_sprite_ext(spr_teclaEnter, 0, _xx + 100 + sprite_get_width(spr_pergaminho) - 70,  _yy+  + sprite_get_height(spr_pergaminho) - 80 , 1, 1, 0, c_white, 1);
 					
 			} else {
 				conversando = false
