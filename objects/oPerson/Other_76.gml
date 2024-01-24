@@ -2,6 +2,15 @@
 // Você pode escrever seu código neste editor
 var _tipo = event_data[? "event_type"];
 
-show_message(_tipo)
+if (_tipo == "sprite event") {
+	var _msg = event_data[? "message"];
+	
+	switch(_msg) {
+		case "interagirFim":
+			virado = false
+		break;
+	
+	}
+}
 
 

@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.2.108",
+    "IDEVersion": "2023.11.1.129",
   },
   "resources": [
     {"id":{"name":"spr_cenario_pre_historia2","path":"sprites/spr_cenario_pre_historia2/spr_cenario_pre_historia2.yy",},},
@@ -74,6 +74,7 @@
     {"id":{"name":"spr_npc_hdc_idle","path":"sprites/spr_npc_hdc_idle/spr_npc_hdc_idle.yy",},},
     {"id":{"name":"spr_npc_robo_idle","path":"sprites/spr_npc_robo_idle/spr_npc_robo_idle.yy",},},
     {"id":{"name":"obj_npc_robo","path":"objects/obj_npc_robo/obj_npc_robo.yy",},},
+    {"id":{"name":"spr_personagem_costas2","path":"sprites/spr_personagem_costas2/spr_personagem_costas2.yy",},},
     {"id":{"name":"DialogoBackup","path":"objects/DialogoBackup/DialogoBackup.yy",},},
     {"id":{"name":"obj_par_npcs","path":"objects/obj_par_npcs/obj_par_npcs.yy",},},
     {"id":{"name":"spr_personagem_parado_esquerda","path":"sprites/spr_personagem_parado_esquerda/spr_personagem_parado_esquerda.yy",},},

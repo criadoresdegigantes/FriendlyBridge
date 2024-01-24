@@ -32,6 +32,7 @@
     {"name":"spr_npc_hdc_idle","order":23,"path":"sprites/spr_npc_hdc_idle/spr_npc_hdc_idle.yy",},
     {"name":"spr_npc_robo_idle","order":24,"path":"sprites/spr_npc_robo_idle/spr_npc_robo_idle.yy",},
     {"name":"obj_npc_robo","order":9,"path":"objects/obj_npc_robo/obj_npc_robo.yy",},
+    {"name":"spr_personagem_costas2","order":29,"path":"sprites/spr_personagem_costas2/spr_personagem_costas2.yy",},
     {"name":"DialogoBackup","order":4,"path":"objects/DialogoBackup/DialogoBackup.yy",},
     {"name":"spr_personagem_parado_esquerda","order":1,"path":"sprites/spr_personagem_parado_esquerda/spr_personagem_parado_esquerda.yy",},
     {"name":"spr_face_robo","order":25,"path":"sprites/spr_face_robo/spr_face_robo.yy",},

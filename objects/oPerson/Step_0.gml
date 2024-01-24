@@ -88,6 +88,15 @@ y += vveloc;
 }
 #endregion
 
+#region Interagir
+
+if (virado) {
+	sprite_index = spr_personagem_costas
+
+}
+
+#endregion
+
 #region dialogo
 
 var _npc = instance_nearest(x, y, obj_par_npcs)

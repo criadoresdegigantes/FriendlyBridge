@@ -22,5 +22,6 @@ conversando = false;
 mostrado = 0;
 inicializar = false;
 sala = room;
+virado = false
 
 #endregion
