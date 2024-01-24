@@ -123,6 +123,20 @@ if conversando == true {
 				pagina = 0
 			}
 		break;
+		
+		case 3:
+			if pagina <= array_length(_npc.mensagens3) - 1 {
+					draw_rectangle_color(_xx + 200, _yy, _guil, _guia, _c, _c, _c, _c, false);
+					draw_text(_xx + 16, _yy - 32, _npc.nome);
+					draw_text_ext(_xx + 232, _yy + 32, _npc.mensagens3[pagina], 32, _guil - 264);
+					draw_sprite_ext(spr_face_hcd, 0, 250, 380, -12, 12, 0, c_white, 1);	
+					draw_sprite_ext(spr_teclaEnter, 0, 900, 570, 1, 1, 0, c_white, 1);
+					
+			} else {
+				conversando = false
+				pagina = 0
+			}
+		break;
 	}
 } else {
 	conversando = false
