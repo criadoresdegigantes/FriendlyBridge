@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_harpinha",
+  "name": "obj_tambor",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"oPerson","path":"objects/oPerson/oPerson.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_harpinha",
-    "path": "sprites/spr_harpinha/spr_harpinha.yy",
+    "name": "spr_tambor",
+    "path": "sprites/spr_tambor/spr_tambor.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -134,6 +134,16 @@ if (conversando == true and keyboard_check_pressed((vk_enter))) {
 	
 			}
 		break;
+		case 4:
+			if (pagina <= array_length(_npc.mensagens4)){
+				pagina++;
+
+			}else{
+				//conversando = false;
+				//pagina = 0;
+	
+			}
+		break;
 	}
 }
 
