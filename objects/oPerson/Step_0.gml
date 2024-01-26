@@ -49,13 +49,24 @@ if !place_meeting(x, y + 1, obj_colisao) {
 } else {
 
 if cima{
-	audio_play_sound(som_pulo,10, false);
+	//audio_play_sound(som_pulo,10, false);
 	vveloc = -9;
 	
 	}
 }
 
 // COLISÂO
+
+// subindo rampa
+if (place_meeting(x + sign(hveloc), y, oParede) && 
+	!place_meeting(x + sign(hveloc), y - 1, oParede)) y-- ;
+
+//descendo rampa
+if (!place_meeting(x + sign(hveloc), y, oParede) && 
+	!place_meeting(x + sign(hveloc), y + 2, oParede) &&
+	place_meeting(x + sign(hveloc), y + 3, oParede)) y --;
+
+
 if place_meeting(x + hveloc, y, obj_colisao){
 
 	while !place_meeting(x + sign(hveloc), y, obj_colisao) {
@@ -111,7 +122,6 @@ if (conversando == true and keyboard_check_pressed((vk_enter))) {
 			}else{
 				//conversando = false;
 				//pagina = 0;
-	
 			}
 		break;
 		case 2:

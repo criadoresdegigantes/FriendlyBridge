@@ -11,7 +11,6 @@
   },
   "defaultScriptType": 1,
   "Folders": [
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Set","folderPath":"folders/Objetos/Tile Set.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Caminhos","folderPath":"folders/Caminhos.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cenas","folderPath":"folders/Cenas.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Conjuntos de tiles","folderPath":"folders/Conjuntos de tiles.yy",},
@@ -20,6 +19,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fontes","folderPath":"folders/Fontes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Linhas do tempo","folderPath":"folders/Linhas do tempo.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objetos","folderPath":"folders/Objetos.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Set","folderPath":"folders/Objetos/Tile Set.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequências","folderPath":"folders/Sequências.yy",},

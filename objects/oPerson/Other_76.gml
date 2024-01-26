@@ -8,6 +8,7 @@ if (_tipo == "sprite event") {
 	switch(_msg) {
 		case "interagirFim":
 			virado = false
+			can_move = true
 		break;
 	
 	}
