@@ -5,6 +5,7 @@
   "ResourceOrderSettings": [
     {"name":"spr_pergaminho","order":33,"path":"sprites/spr_pergaminho/spr_pergaminho.yy",},
     {"name":"spr_caverna","order":34,"path":"sprites/spr_caverna/spr_caverna.yy",},
+    {"name":"spr_plataforma_cima","order":36,"path":"sprites/spr_plataforma_cima/spr_plataforma_cima.yy",},
     {"name":"spr_cenario_pre_historia2","order":22,"path":"sprites/spr_cenario_pre_historia2/spr_cenario_pre_historia2.yy",},
     {"name":"obj_tambor","order":16,"path":"objects/obj_tambor/obj_tambor.yy",},
     {"name":"spr_end","order":14,"path":"sprites/spr_end/spr_end.yy",},
@@ -40,6 +41,7 @@
     {"name":"oPerson","order":4,"path":"objects/oPerson/oPerson.yy",},
     {"name":"spr_face_hcd","order":5,"path":"sprites/spr_face_hcd/spr_face_hcd.yy",},
     {"name":"obj_menu","order":17,"path":"objects/obj_menu/obj_menu.yy",},
+    {"name":"obj_plataforma_cima","order":20,"path":"objects/obj_plataforma_cima/obj_plataforma_cima.yy",},
     {"name":"spr_caverna2","order":4,"path":"sprites/spr_caverna2/spr_caverna2.yy",},
     {"name":"spr_tambor","order":32,"path":"sprites/spr_tambor/spr_tambor.yy",},
     {"name":"spr_hdc_npc_direita","order":3,"path":"sprites/spr_hdc_npc_direita/spr_hdc_npc_direita.yy",},

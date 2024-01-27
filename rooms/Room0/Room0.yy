@@ -15,15 +15,17 @@
     {"name":"inst_5E69C03E_1","path":"rooms/Room0/Room0.yy",},
     {"name":"inst_53D0B090_1","path":"rooms/Room0/Room0.yy",},
     {"name":"inst_25CA7932","path":"rooms/Room0/Room0.yy",},
-    {"name":"inst_4E6193C7","path":"rooms/Room0/Room0.yy",},
-    {"name":"inst_49A5E956","path":"rooms/Room0/Room0.yy",},
+    {"name":"inst_5C938532","path":"rooms/Room0/Room0.yy",},
+    {"name":"inst_29256F","path":"rooms/Room0/Room0.yy",},
+    {"name":"inst_493D9D89","path":"rooms/Room0/Room0.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_3","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53D0B090_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_end","path":"objects/obj_end/obj_end.yy",},"properties":[],"rotation":0.0,"scaleX":0.359375,"scaleY":0.390625,"x":355.0,"y":139.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4E6193C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oParede","path":"objects/oParede/oParede.yy",},"properties":[],"rotation":19.134476,"scaleX":6.5625,"scaleY":1.0,"x":203.90662,"y":152.30862,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_49A5E956","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oParede","path":"objects/oParede/oParede.yy",},"properties":[],"rotation":46.815956,"scaleX":1.0,"scaleY":1.0,"x":170.0,"y":238.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5C938532","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_plataforma_cima","path":"objects/obj_plataforma_cima/obj_plataforma_cima.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":100.0,"y":151.5,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29256F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_plataforma_cima","path":"objects/obj_plataforma_cima/obj_plataforma_cima.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":99.0,"y":107.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_493D9D89","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_plataforma_cima","path":"objects/obj_plataforma_cima/obj_plataforma_cima.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":99.0,"y":64.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"hdc","depth":100,"effectEnabled":true,"effectType":null,"gridX":1,"gridY":1,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_70AFCA29_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oParede","path":"objects/oParede/oParede.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":5.34375,"x":-16.0,"y":83.5,},

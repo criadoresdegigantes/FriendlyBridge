@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_plataforma_cima, image_index, x , y , image_xscale, image_yscale, image_angle, c_gray, image_alpha )

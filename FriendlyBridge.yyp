@@ -38,6 +38,7 @@
   "resources": [
     {"id":{"name":"spr_pergaminho","path":"sprites/spr_pergaminho/spr_pergaminho.yy",},},
     {"id":{"name":"spr_caverna","path":"sprites/spr_caverna/spr_caverna.yy",},},
+    {"id":{"name":"spr_plataforma_cima","path":"sprites/spr_plataforma_cima/spr_plataforma_cima.yy",},},
     {"id":{"name":"spr_cenario_pre_historia2","path":"sprites/spr_cenario_pre_historia2/spr_cenario_pre_historia2.yy",},},
     {"id":{"name":"obj_tambor","path":"objects/obj_tambor/obj_tambor.yy",},},
     {"id":{"name":"obj_texto","path":"objects/obj_texto/obj_texto.yy",},},
@@ -79,6 +80,7 @@
     {"id":{"name":"oPerson","path":"objects/oPerson/oPerson.yy",},},
     {"id":{"name":"spr_face_hcd","path":"sprites/spr_face_hcd/spr_face_hcd.yy",},},
     {"id":{"name":"obj_menu","path":"objects/obj_menu/obj_menu.yy",},},
+    {"id":{"name":"obj_plataforma_cima","path":"objects/obj_plataforma_cima/obj_plataforma_cima.yy",},},
     {"id":{"name":"spr_caverna2","path":"sprites/spr_caverna2/spr_caverna2.yy",},},
     {"id":{"name":"spr_tambor","path":"sprites/spr_tambor/spr_tambor.yy",},},
     {"id":{"name":"spr_hdc_npc_direita","path":"sprites/spr_hdc_npc_direita/spr_hdc_npc_direita.yy",},},
