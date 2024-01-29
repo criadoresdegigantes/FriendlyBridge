@@ -58,13 +58,13 @@ if cima{
 // COLISÂO
 
 // subindo rampa
-if (place_meeting(x + sign(hveloc), y, oParede) && 
-	!place_meeting(x + sign(hveloc), y - 1, oParede)) y-- ;
+if (place_meeting(x + sign(hveloc), y, obj_colisao) && 
+	!place_meeting(x + sign(hveloc), y - 1, obj_colisao)) y-- ;
 
 //descendo rampa
-if (!place_meeting(x + sign(hveloc), y, oParede) && 
-	!place_meeting(x + sign(hveloc), y + 2, oParede) &&
-	place_meeting(x + sign(hveloc), y + 3, oParede)) y --;
+if (!place_meeting(x + sign(hveloc), y, obj_colisao) && 
+	!place_meeting(x + sign(hveloc), y + 2, obj_colisao) &&
+	place_meeting(x + sign(hveloc), y + 3, obj_colisao)) y --;
 
 
 if place_meeting(x + hveloc, y, obj_colisao){

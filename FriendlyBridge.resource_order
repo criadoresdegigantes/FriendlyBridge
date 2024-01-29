@@ -1,6 +1,19 @@
 {
   "FolderOrderSettings": [
+    {"name":"Cenas","order":1,"path":"folders/Cenas.yy",},
+    {"name":"Conjuntos de tiles","order":2,"path":"folders/Conjuntos de tiles.yy",},
+    {"name":"Curvas da animação","order":3,"path":"folders/Curvas da animação.yy",},
+    {"name":"Extensões","order":4,"path":"folders/Extensões.yy",},
+    {"name":"Fontes","order":5,"path":"folders/Fontes.yy",},
+    {"name":"Linhas do tempo","order":6,"path":"folders/Linhas do tempo.yy",},
+    {"name":"Objetos","order":7,"path":"folders/Objetos.yy",},
     {"name":"Tile Set","order":18,"path":"folders/Objetos/Tile Set.yy",},
+    {"name":"Particle Systems","order":8,"path":"folders/Particle Systems.yy",},
+    {"name":"Scripts","order":9,"path":"folders/Scripts.yy",},
+    {"name":"Sequências","order":10,"path":"folders/Sequências.yy",},
+    {"name":"Shaders","order":11,"path":"folders/Shaders.yy",},
+    {"name":"Sons","order":14,"path":"folders/Sons.yy",},
+    {"name":"Sprites","order":12,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_pergaminho","order":33,"path":"sprites/spr_pergaminho/spr_pergaminho.yy",},
@@ -18,6 +31,7 @@
     {"name":"obj_plataforma","order":10,"path":"objects/obj_plataforma/obj_plataforma.yy",},
     {"name":"spr_cenario_pre_historia","order":20,"path":"sprites/spr_cenario_pre_historia/spr_cenario_pre_historia.yy",},
     {"name":"Room3","order":2,"path":"rooms/Room3/Room3.yy",},
+    {"name":"Cutscene","order":1,"path":"scripts/Cutscene/Cutscene.yy",},
     {"name":"spr_hdc_npc_esquerda","order":12,"path":"sprites/spr_hdc_npc_esquerda/spr_hdc_npc_esquerda.yy",},
     {"name":"spr_flauta","order":30,"path":"sprites/spr_flauta/spr_flauta.yy",},
     {"name":"Room0","order":1,"path":"rooms/Room0/Room0.yy",},
